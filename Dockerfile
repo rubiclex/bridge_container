@@ -7,7 +7,7 @@ WORKDIR /app
 RUN apk update && apk add build-base g++ cairo-dev pango-dev giflib-dev git
 
 # clone repo
-RUN git clone https://github.com/DSSoftware/SBU-Bridge.git
+RUN git clone https://github.com/DSSoftware/SBU-Bridge.git /app
 
 
 # Install pnpm and install all dependencies
