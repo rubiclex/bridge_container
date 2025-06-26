@@ -14,4 +14,4 @@ RUN git clone https://github.com/DSSoftware/SBU-Bridge.git /app
 RUN npm install -g pnpm \
     && pnpm install
 
-CMD [ "node" ]
+CMD [ "node", "index.js" ]
